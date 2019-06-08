@@ -1,6 +1,6 @@
 <template>
     <transition name="fade">
-        <div v-if="show" class="bubble-wrapper">
+        <div v-if="show" class="bubble-wrapper page">
             <div ref="bubble" class="bubble">
                 <img class="bubble-image" src="@/assets/logo.png">
             </div>
@@ -11,7 +11,7 @@
 
 <script>
 
-import { TimelineLite, Back, Elastic, Expo } from "gsap"
+import { TimelineLite, Back, Elastic, Expo } from 'gsap'
 
 export default 
 {
@@ -75,7 +75,7 @@ export default
     {
       setTimeout(() => {
         this.show = false
-      }, 3000);
+      }, 900);
     }
   }
 }
@@ -102,9 +102,8 @@ export default
 .bubble
 {
   z-index: 2;
-  width: 100px;
-  height: 100px;
-  border: 1px solid white;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
 }
 
@@ -112,12 +111,12 @@ export default
 {
   position: absolute;
   z-index: 1;
-  height: 120px;
-  width: 120px;
+  height: 150px;
+  width: 150px;
   top: 50%;
   left: 50%;
-  margin-left: -60px;
-  margin-top: -60px;
+  margin-left: -75px;
+  margin-top: -75px;
   background: #272727;
   border-radius: 50%;
   opacity: 0;

@@ -1,6 +1,6 @@
 <template>
   <transition name="fadeIn">
-    <div v-if="show" class="home page">
+    <div class="home page">
       <div class="intro">
         <div class="design-home">
           <img class="img-home" src="@/assets/evaluations.jpg" alt="design">
@@ -13,31 +13,6 @@
   </transition>
 </template>
 
-<script>
-export default {
-  data() 
-  {
-    return {
-      show: false
-    }
-  },
-
-  mounted() 
-  {
-    this.showToggle()
-  },
-
-  methods:
-  {
-    showToggle()
-    {
-      setTimeout(() => {
-        this.show = true
-      }, 3000);
-    }
-  }
-}
-</script>
 
 <style>
 
