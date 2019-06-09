@@ -18,7 +18,7 @@
 
 <script>
 
-const URL_PROJECT= 'http://martinprejean.com/design/';
+const URL_PROJECT= 'http://martinprejean.com/';
 
 export default {
   data () {

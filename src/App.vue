@@ -12,8 +12,8 @@
               <span aria-hidden="true"></span>
           </a>
         </div>
+        <transition name="burger">
           <div class="navbar-menu" v-bind:class="{'is-active': isOpen}">
-            <transition name="burger">
               <div class="navbar-end">
                 <div class="item item-1">
                   <router-link id="home" class="navbar-item is-tab" to="/">Home</router-link>
@@ -31,8 +31,8 @@
                   <router-link class="navbar-item is-tab" to="/contact">Contact</router-link>
                 </div>
               </div>
-            </transition>
           </div>
+        </transition>
       </div>
     <transition name="router-animation">
       <router-view/>
@@ -326,38 +326,26 @@ body
   .navbar-end .item
   {
    justify-content: center;
+   transition: .5s;
   }
 
   .navbar-brand
   {
     margin-right: auto;
     margin-left: auto;
+    transition: .5s;
   }
 
   .navbar-burger
   {
     margin-right: auto;
     margin-left: auto;
-  }
-  
-  .navbar-menu .is-active
-  {
     transition: .5s;
   }
 
   .is-active
   {
-    transition: .2s ease-out;
-  }
-
-  .burger-enter-active, .burger-leave-active
-  {
-    transition: .2s ease-out;
-  }
-
-  .burger-enter, .burger-leave-to
-  {
-    transition: .2s ease-out;
+    transition: .5s;
   }
 }
 </style>

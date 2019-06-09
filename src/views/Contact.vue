@@ -13,18 +13,18 @@
                 </a>
             </div>
             <div class="icon">
-                <a href="https://www.facebook.com/martin.macabies?ref=bookmarks" target="_blank" title="Contact me via Facebook">
-                    <img src="@/assets/facebook.svg" alt="email icon">
+                <a href="https://github.com/MartinPrejean" target="_blank" title="Contact me via Facebook">
+                    <img src="@/assets/github.svg" alt="github icon">
                 </a>
             </div>
             <div class="icon">
                 <a href="https://www.linkedin.com/in/martinprejean" target="_blank" title="Contact me via Linkedin">
-                    <img src="@/assets/linkedin.svg" alt="email icon">
+                    <img src="@/assets/linkedin.svg" alt="linkedin icon">
                 </a>
             </div>
             <div class="icon">
                 <a href="https://www.instagram.com/mmacabies/?hl=fr" target="_blank" title="Contact me via Instagram">
-                    <img src="@/assets/instagram.svg" alt="email icon">
+                    <img src="@/assets/instagram.svg" alt="instagram icon">
                 </a>
             </div>
         </div>

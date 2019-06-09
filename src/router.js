@@ -5,6 +5,7 @@ import Home from './views/Home.vue'
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
@@ -22,17 +23,17 @@ export default new Router({
     {
       path: '/design',
       name: 'design',
-      component: () => import(/* webpackChunkName: "about" */ './views/Design.vue')
+      component: () => import(/* webpackChunkName: "design" */ './views/Design.vue')
     },
     {
       path: '/development',
       name: 'development',
-      component: () => import(/* webpackChunkName: "about" */ './views/Development.vue')
+      component: () => import(/* webpackChunkName: "development" */ './views/Development.vue')
     },
     {
       path: '/contact',
       name: 'contact',
-      component: () => import(/* webpackChunkName: "about" */ './views/Contact.vue')
-    }
+      component: () => import(/* webpackChunkName: "contact" */ './views/Contact.vue')
+    },
   ]
 })

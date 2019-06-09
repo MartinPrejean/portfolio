@@ -3,10 +3,14 @@
     <div class="home page">
       <div class="intro">
         <div class="design-home">
-          <img class="img-home" src="@/assets/evaluations.jpg" alt="design">
+          <router-link to="/design">
+            <img class="img-home" src="@/assets/evaluations.jpg" alt="design">
+          </router-link>
         </div>
         <div class="development-home">
-          <img class="img-home" src="@/assets/evaluations.jpg" alt="development">
+          <router-link to="/development">
+            <img class="img-home" src="@/assets/evaluations.jpg" alt="development">
+          </router-link>
         </div>
       </div>
     </div>
@@ -35,8 +39,16 @@
 
 .img-home
 {
+  filter: grayscale();
+  transition: .5s;
   width: 50vw;
   height: 50vh;
+}
+
+.img-home:hover
+{
+  transition: .5s;
+  filter:none;
 }
   
 </style>
