@@ -1,29 +1,25 @@
-# portfolio-vue
+# Porfolio-Vue
 
-## Project setup
-```
-npm install
-```
+I made this portfolio alone (design + development)
 
-### Compiles and hot-reloads for development
+## Technologies
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+Vue.js
+Router.js
+Bulma
+ESLint
 ```
 
-### Run your tests
+### Features
 ```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
+Dynamic projects (still working on their implementations)
+Preloader
+Good design ?
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Disclaimer
+Portfolio still in Alpha. New updates and features will come soon. Wish me luck.
+
+
+### Thanks
+I want to thank Bruno Simon for his amazing commitment to the lessons he gave us and I wish him good luck for his next projects. God speed !
