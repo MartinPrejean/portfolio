@@ -14,11 +14,13 @@ ESLint
 ```
 Dynamic projects (still working on their implementations)
 Preloader
+Responsive
 Good design ?
 ```
 
 ### Disclaimer
 Portfolio still in Alpha. New updates and features will come soon. Wish me luck.
+Favicon is on the website but it's not showing. Couldn't figure it out yet.
 
 
 ### Thanks
